@@ -1,0 +1,21 @@
+CAPI=2:
+
+name: "bci:handoff:athos_veri_elab:1.0"
+description: "handoff_a bci:handoff:athos_veri_elab handoff snapshot version 1.0"
+
+filesets:
+  data_files:
+    files:
+      - ./remex/athos-sim-verilator/default/build_dir/Vporthos_verilator
+    file_type: handoffData
+
+targets:
+  default:
+    filesets:
+      - data_files
+
+provider:
+  name: github
+  repo: athos_veri_hoff
+  user: belmontcomputing
+  version: ver1.0

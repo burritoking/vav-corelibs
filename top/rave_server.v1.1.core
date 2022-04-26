@@ -1,0 +1,23 @@
+CAPI=2:
+
+name: "bci:systems:rave_server:0.1"
+description: "Top-level manifest for RAVE simulation (server side)."
+
+filesets:
+  files_rave:
+    depend:
+      - bci:sw:all:1.0
+      - bci:handoff:athos_veri_elab:1.0
+
+targets:
+  sim:
+    default_tool: verilator
+    filesets:
+      - files_rave
+    toplevel: porthos_verilator
+
+provider:
+  name: cold
+  repo: $COLD_ROOT/top/rave_server
+  version: v1.1
+
