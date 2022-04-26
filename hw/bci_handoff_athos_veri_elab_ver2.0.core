@@ -18,4 +18,4 @@ provider:
   name: github
   repo: athos_veri_hoff
   user: belmontcomputing
-  version: ver1.0
+  version: ver2.0
