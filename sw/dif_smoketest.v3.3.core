@@ -30,7 +30,8 @@ targets:
       - files_dif_smoketest
 
 provider:
-  name: cold
-  repo: $COLD_ROOT/sw/dif_tests
+  name: github
+  repo: dif_tests
+  user: burritoking
   version: v3.3
 

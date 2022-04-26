@@ -32,7 +32,7 @@ targets:
       - files_device
 
 provider:
-  name: cold
-  repo: $COLD_ROOT/sw/boot_rom
+  name: github
+  repo: boot_rom
+  user: burritoking
   version: v3.3
-

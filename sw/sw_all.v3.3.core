@@ -33,7 +33,8 @@ targets:
       - files_exts_common
 
 provider:
-  name: cold
-  repo: $COLD_ROOT/sw/sw_all
+  name: github
+  repo: sw_all
+  user: burritoking
   version: v3.3
 

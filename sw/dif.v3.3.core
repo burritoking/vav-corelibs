@@ -89,7 +89,8 @@ targets:
       - files_arch
 
 provider:
-  name: cold
-  repo: $COLD_ROOT/sw/dif
+  name: github
+  repo: dif
+  user: burritoking
   version: v3.3
 

@@ -18,7 +18,8 @@ targets:
       - files_top_athos_sw
 
 provider:
-  name: cold
-  repo: $COLD_ROOT/hw/sw_top_athos_sw
+  name: github
+  repo: top_athos_sw
+  user: burritoking
   version: v2.2
 

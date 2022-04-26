@@ -17,7 +17,8 @@ targets:
       - python_src
 
 provider:
-  name: cold
-  repo: $COLD_ROOT/cad/elf2vmem
+  name: github
+  repo: elf2vmem
+  user: burritoking
   version: v4.4
 

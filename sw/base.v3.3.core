@@ -37,7 +37,8 @@ targets:
       - files_base
 
 provider:
-  name: cold
-  repo: $COLD_ROOT/sw/base
+  name: github
+  repo: base
+  user: burritoking
   version: v3.3
 

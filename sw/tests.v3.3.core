@@ -40,7 +40,8 @@ targets:
 #      - files_flash_ctrl
      
 provider:
-  name: cold
-  repo: $COLD_ROOT/sw/application
+  name: github
+  repo: application
+  user: burritoking
   version: v3.3
 
