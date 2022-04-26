@@ -17,7 +17,8 @@ targets:
     toplevel: porthos_verilator
 
 provider:
-  name: cold
-  repo: $COLD_ROOT/top/rave_server
+  name: github
+  repo: rave_server
+  user: burritoking
   version: v1.1
 
