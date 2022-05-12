@@ -14,19 +14,19 @@ filesets:
       - dif_gpio.c
       - dif_aon_timer.h :           {is_include_file: true}
       - regs/aon_timer_regs.h :     {is_include_file: true}
-#      - dif_aon_timer.c
+      - dif_aon_timer.c
       - dif_rv_timer.h :            {is_include_file: true}
       - regs/rv_timer_regs.h :      {is_include_file: true}
-#      - dif_rv_timer.c
+      - dif_rv_timer.c
       - dif_plic.h :                {is_include_file: true}
       - regs/rv_plic_regs.h :       {is_include_file: true}
-#      - dif_plic.c
+      - dif_plic.c
       - dif_uart.h :                {is_include_file: true}
       - regs/uart_regs.h :          {is_include_file: true}
       - dif_uart.c
       - dif_rstmgr.h :              {is_include_file: true}
       - regs/rstmgr_regs.h :        {is_include_file: true}
-#      - dif_rstmgr.c
+      - dif_rstmgr.c
     file_type: swCSource
   files_testing:
     depend:
@@ -51,7 +51,7 @@ filesets:
       - print.c
       - pmp.h  :          {is_include_file: true}
       - pmp_regions.def : {is_include_file: true}
-#      - pmp.c
+      - pmp.c
       - hart.h :          {is_include_file: true}
       - hart.c
       - ibex.h :          {is_include_file: true}
